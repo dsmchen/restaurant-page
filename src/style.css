@@ -2,8 +2,8 @@
 
 @font-face {
   font-family: 'Spinnaker';
-  src: url('./assets/Spinnaker-Regular.woff2') format('woff2'),
-    url('./assets/Spinnaker-Regular.woff') format('woff');
+  src: url('./assets/fonts/Spinnaker-Regular.woff2') format('woff2'),
+    url('./assets/fonts/Spinnaker-Regular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -82,4 +82,46 @@ h6 {
 
 body {
   font-family: 'Spinnaker', Arial, Helvetica, sans-serif;
+  color: #111;
+  background-color: #eee;
+}
+
+nav {
+  display: flex;
+  justify-content: end;
+  gap: 20px;
+  padding: 20px;
+}
+
+button {
+  padding: 5px 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#content {
+  padding: 20px;
+}
+
+h1,
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.image-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+  margin-bottom: 40px;
+}
+
+img {
+  width: 50px;
+}
+
+p {
+  margin: 20px auto;
+  max-width: 400px;
 }
