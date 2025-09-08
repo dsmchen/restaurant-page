@@ -86,11 +86,17 @@ body {
   background-color: #eee;
 }
 
-nav {
+header,
+#content {
+  padding: 20px;
+}
+
+nav ul {
+  list-style: none;
+  padding-left: 0;
   display: flex;
   justify-content: end;
   gap: 20px;
-  padding: 20px;
 }
 
 button {
@@ -99,13 +105,10 @@ button {
   cursor: pointer;
 }
 
-#content {
-  padding: 20px;
-}
-
 h1,
 h2 {
   text-align: center;
+  margin-top: 20px;
   margin-bottom: 20px;
 }
 
@@ -121,7 +124,25 @@ img {
   width: 50px;
 }
 
-p {
+p,
+.menu-list,
+.contact-list {
   margin: 20px auto;
   max-width: 400px;
+}
+
+.menu-list {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 40px;
+}
+
+.menu-list li {
+  margin-bottom: 10px;
+}
+
+.contact-list {
+  padding-left: 0;
+  list-style: none;
+  text-align: center;
 }
