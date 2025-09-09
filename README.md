@@ -6,4 +6,5 @@
 
 - Inspiration: [Muan](https://www.muan.uk/)
 - Font: [Spinnaker](https://fonts.google.com/specimen/Spinnaker)
+- CSS reset: [Josh's Custom CSS Reset](https://www.joshwcomeau.com/css/custom-css-reset/)
 - Images: [Emoji to image](https://emoji.aranja.com/)
