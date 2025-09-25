@@ -1,9 +1,10 @@
 /* Font */
 
 @font-face {
-  font-family: 'Spinnaker';
-  src: url('./assets/fonts/Spinnaker-Regular.woff2') format('woff2'),
-    url('./assets/fonts/Spinnaker-Regular.woff') format('woff');
+  font-family: "Spinnaker";
+  src:
+    url("./assets/fonts/Spinnaker-Regular.woff2") format("woff2"),
+    url("./assets/fonts/Spinnaker-Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -81,7 +82,7 @@ h6 {
 /* Restaurant Page */
 
 body {
-  font-family: 'Spinnaker', Arial, Helvetica, sans-serif;
+  font-family: "Spinnaker", Arial, Helvetica, sans-serif;
   color: #111;
   background-color: #eee;
 }
